@@ -1,0 +1,44 @@
+.parentDiv{
+    position: fixed;
+    height: 50%;
+	top: 85px;
+    background: white;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    z-index: 200;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    transform: translate(0%, 0px);
+    padding:50px;
+    width:18%;
+	font-family:Lucida !important;
+	justify-content: auto;
+	align-items: center;
+	border-radius: None;
+	left:510px;
+	right:auto;
+}
+
+
+.parentDiv input[type="text"] {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 11px;
+	font-family:Comic Sans MS!important;
+}
+
+.parentDiv input[type="password"] {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 11px;
+	font-family:Comic Sans MS!important;
+}
+
+
+@media (max-width:680px){
+    .parentDiv{
+        padding: 10%;
+        width:%;
+    }
+}
